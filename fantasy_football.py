@@ -27,10 +27,10 @@ print(box_scores[2].home_lineup[3].name, ":", box_scores[2].home_lineup[3].lineu
 print(box_scores[2].home_lineup[0].name, ":", box_scores[2].home_lineup[0].lineupSlot)
 '''
 
-# Generate a pandas dataframe of high level matchup stats
-regular_season_length = 14
+### Generate a pandas dataframe of high level matchup stats
 
-# Instantiate empty lists and the week counter
+# Instantiate the regular season length, empty lists, and the week counter
+regular_season_length = 14
 weeks = list(range(1, regular_season_length + 1)) * 12
 opponents, scores, outcomes, teamnames = [], [], [], []
 
